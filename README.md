@@ -56,9 +56,14 @@ Each group member will develop an individual dataset related to the broader gami
 - **Dataset Source:** https://www.kaggle.com/datasets/thedevastator/video-game-sales-and-ratings
 - **File Used:** Video_Games.csv
 
-- **Description:** 
+- **Description:**  
+  Contains information about Video game releases such as title, platform(s), release year, genre, publisher, developer, scores, ESRB rating, & sales. The sales data covers multiple regions, aswell as global sales. The scores in the dataset are both user and critic reception scores. The data contains release years from a range of 1980 to 2020.
+
 - **Relation to Group Theme:**  
+  The dataset connects to the gaming theme of the group by giving a view of the commercial(sales) aspect of the video game industry. It offers the possiblility of analysis of a games performance in differing markets, genres & platforms with larger market shares, and the reception scores in relation to a games commercial success. The dataseta aso can show the evolution of gaming from early consoles to other modern platforms used, and can illustrate the growth of the gaming industry culturally and economically.
+
 - **Why This Topic:**  
+  I enjoy retro consoles & games, but also recognize I need to fit this interest into this wholistic group, so I think looking at the change in direction, growth, and regional markets from the past to present can show patterns in the industry. The evolution of the platforms and market taste from the past in someways shaped todays gaming market. Especially when it comes to platforms as the limitations of the technology surely has affected what was feasible and thus genre/perceptions/sales of games due to that very context gives use a view of cultural changes for the market.
 
 ---
 

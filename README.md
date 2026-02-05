@@ -35,16 +35,28 @@ Our group’s shared thematic focus is **gaming**, understood as a cultural, soc
 Each group member will develop an individual dataset related to the broader gaming theme. These ideas are preliminary and will be refined over the course of the semester.
 
 ### Jesus Vazquez
-- **Proposed Dataset:**  
+- **Proposed Dataset:** Esports Earnings Dataset (Kaggle)
+- **Dataset Source:** https://www.kaggle.com/datasets/rankirsh/esports-earnings
+- **File Used:** GeneralEsportData.csv
+
 - **Description:**  
+  This dataset contains structured information about esports tournaments, including game titles, total prize pools, number of tournaments, number of players, and total earnings distributed. The data spans multiple esports titles and competitive scenes, allowing for comparisons across games and over time.
+
 - **Relation to Group Theme:**  
+  Esports represents a major intersection of gaming, competition, labor, and digital culture. This dataset connects directly to the group’s gaming theme by highlighting how different games support professional player ecosystems, how prize money is distributed, and how competitive gaming has evolved as a cultural and economic phenomenon.
+
 - **Why This Topic:**  
+  I am interested in how gaming extends beyond play into professionalized spaces such as esports. Prize pools and earnings reflect which games gain institutional support, community investment, and long-term sustainability. Analyzing esports earnings allows me to explore questions about inequality between games, genre popularity, and how cultural attention translates into financial reward within gaming communities.
+
 
 ---
 
 ### Charles Cantrell
-- **Proposed Dataset:**  
-- **Description:**  
+- **Proposed Dataset:** Video Game Sales and Ratings (Kaggle)
+- **Dataset Source:** https://www.kaggle.com/datasets/thedevastator/video-game-sales-and-ratings
+- **File Used:** Video_Games.csv
+
+- **Description:** 
 - **Relation to Group Theme:**  
 - **Why This Topic:**  
 

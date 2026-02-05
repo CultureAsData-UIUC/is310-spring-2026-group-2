@@ -79,7 +79,6 @@ This dataset contains information about popular video games released between 198
 - **Relation to Group Theme:**  
 This dataset connects directly to our group’s gaming theme by showing how different genres appear and change over time across platforms. By examining genre trends, the data helps highlight recurring design approaches and how certain types of games become more prominent as the industry and player preferences evolve. 
 - **Why This Topic:**  
-
 I am interested in how game genres and mechanics shape player experience and influence how games are remembered and categorized. Genres are often treated as simple labels, but they are built from repeated mechanics and design patterns that change over time. Using this dataset allows me to explore how genres emerge, overlap, and shift in popularity, and how these changes reflect broader trends in gaming culture and design practices. 
 ---
 

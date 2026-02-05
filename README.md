@@ -52,8 +52,11 @@ Each group member will develop an individual dataset related to the broader gami
 ---
 
 ### Charles Cantrell
-- **Proposed Dataset:**  
-- **Description:**  
+- **Proposed Dataset:** Video Game Sales and Ratings (Kaggle)
+- **Dataset Source:** https://www.kaggle.com/datasets/thedevastator/video-game-sales-and-ratings
+- **File Used:** Video_Games.csv
+
+- **Description:** 
 - **Relation to Group Theme:**  
 - **Why This Topic:**  
 

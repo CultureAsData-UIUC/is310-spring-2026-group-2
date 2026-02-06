@@ -55,7 +55,7 @@
 
 ---
 
-### Group Member 2
+### Charles Cantrell
 
 **Poem Title:**  
 **Author:**  
@@ -233,6 +233,6 @@
 # Member Contributions
 
 - Jesus Vazquez: Formatted github repo and README.md, located one poem in HathiTrust, analyzed OCR quality, and compared dataset context to original page.
-- Member 2:
+- Charles Cantrell:
 - Member 3:
 - Member 4:

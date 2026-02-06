@@ -84,11 +84,18 @@ Each group member will develop an individual dataset related to the broader gami
 ---
 
 ### Hongli Peng
-- **Proposed Dataset:**  
-- **Description:**  
-- **Relation to Group Theme:**  
+- **Proposed Dataset:**  Global Gaming & eSports Growth Dataset (2010–2025)  (Kaggle)
+- **Dataset Source:** https://www.kaggle.com/datasets/emirhanakku/global-gaming-and-esports-growth-dataset-20102025
+- **File Used:** global_gaming_esports_2010_2025.csv
+- **Creator:** Emirhan Akkuş , https://www.kaggle.com/emirhanakku
+- 
+- **Description:**
+- This dataset provides a comprehensive view of the global gaming and eSports industry from 2010 to 2025, reflecting the evolution of digital entertainment through the rise of mobile gaming, streaming platforms, and AR/VR technologies.
+It combines realistic, synthetically generated data across 25 countries and 5 regions, covering metrics such as revenue, player activity, tournament dynamics, gender distribution, and technology adoption.
+- **Relation to Group Theme:**
+- It highlights the evolution of games through mobile platforms, streaming services, and AR/VR technologies, while capturing player behavior, revenue growth, and competitive gaming dynamics across regions. Overall, the dataset demonstrates how games have become a major form of digital entertainment with significant cultural, technological, and economic impact.  
 - **Why This Topic:**  
-
+understanding how the gaming industry has continuously evolved. This database enables me to examine long-term trends in gaming revenue, player participation, and esports development across different regions and platforms. By analyzing metrics such as player activity, tournament dynamics, and technology adoption, I can explore how factors like mobile gaming, streaming services, and AR/VR technologies influence industry growth and long-term sustainability.
 ---
 
 ### Raymond Lu

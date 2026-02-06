@@ -92,10 +92,19 @@ Each group member will develop an individual dataset related to the broader gami
 ---
 
 ### Raymond Lu
-- **Proposed Dataset:**  
+- **Proposed Dataset:** Steam Games Dataset (Kaggle)
+- **Dataset Source:** https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
+- **File Used:** games.csv
+
 - **Description:**  
+  This dataset contains structured information about games available on the Steam platform, including game titles, release dates, estimated number of owners, peak concurrent users (CCU), pricing, age requirements, supported languages, and downloadable content counts. The dataset provides quantitative indicators of player ownership and activity, making it suitable for analyzing how many players own a game compared to how actively it is being played.
+
 - **Relation to Group Theme:**  
+  This dataset complements other group projects that focus on game profitability and popularity by examining player activity and engagement. While earnings data highlights which games generate the most revenue and popularity datasets show which games are most widely recognized, this dataset focuses on actual player behavior. By comparing ownership and concurrent user data, the project adds a participation-focused perspective to the group’s exploration of gaming.
+
 - **Why This Topic:**  
+  I am interested in understanding the difference between game ownership and active participation. Some games may be widely purchased but rarely played, while others maintain smaller player bases with consistently high activity. Analyzing ownership, concurrent users, pricing, and release timing allows me to explore which games sustain engagement and which do not, using clear and measurable data rather than rankings or subjective evaluations.
+
 
 ---
 

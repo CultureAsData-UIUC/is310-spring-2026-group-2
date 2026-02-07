@@ -5,6 +5,7 @@
 
 # Part 1: Exploring HathiTrust
 
+
 ## Search Strategies and Barriers 
 
 **Search strategies used**
@@ -25,26 +26,26 @@
 
 ### Jesus Vazquez
 
-**Poem Title:**  
-**Author:**  
-**Magazine:**  
-**Issue Date:**  
-**HathiTrust Link:**  
+**Poem Title:** New Wars
+**Author:** Benjamin Griffith Brawley
+**Magazine:** Colored American Magazine
+**Issue Date:** v.1-2 (1900-1901)
+**HathiTrust Link:** https://babel.hathitrust.org/cgi/pt?id=pst.000053237019&seq=300&q1=Brawley
 
 #### Search Process
-- How I searched:
-- Was it easy to find:
-- Challenge encountered:
+- How I searched: I searched HathiTrust using the magazine title *Colored American Magazine* and narrowed results by year. I then used the search within text feature to search for the author's last name, Brawley.The poem appeared in the results and I navigated to the page to confirm it.
+- Was it easy to find: Yes it was fairly easy to find after understanding how HathiTrust website worked.
+- Challenge encountered: One challenge was that OCR search was not perfectly accurate, so some scrolling was required to verify the poem location.
 
 #### OCR Observations
-- OCR issue noticed:
-- Another issue:
-- How this affects research:
+- OCR issue noticed: Some punctuation is faded out, and line spacing is not perfectly recognized in the OCR text.
+- Another issue: Poetry formatting, especially line breaks and indentation, made OCR less reliable than with normal paragraphs.
+- How this affects research: This could affect research because key word searches might miss poems or return incomplete results if OCR errors occur.
 
 #### Context Comparison
-- Context gained from original page:
-- What the dataset removes:
-- What the dataset makes easier:
+- Context gained from original page: Seeing the original page showed that the poem appears as a part of a larger section in the magazine giving historical and editorial context.
+- What the dataset removes: The dataset removes layout, typography, and surrounding material such as headings or nearby text.
+- What the dataset makes easier: The dataset makes it easier to seach organize, and analyze poems across many different issues.
 
 #### Screenshots
 *(Insert screenshots name the file that for it to show up)*

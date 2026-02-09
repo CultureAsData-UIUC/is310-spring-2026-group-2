@@ -50,9 +50,9 @@
 #### Screenshots
 *(Insert screenshots name the file that for it to show up)*
 
-![Poem Page Screenshot](poem1.png)
+![Poem Page Screenshot](images/poem1.png)
 
-![Item Information Screenshot](iteminfo1.png)
+![Item Information Screenshot](images/iteminfo1.png)
 
 ---
 
@@ -130,9 +130,9 @@ I would include page-level links and more contextual information to better conne
 #### Screenshots
 *(Insert screenshots name the file that for it to show up)*
 
-![Poem Page Screenshot](poem2.png)
+![Poem Page Screenshot](images/poem2.png)
 
-![Item Information Screenshot](iteminfo2.png)
+![Item Information Screenshot](images/iteminfo2.png)
 
 ---
 
@@ -186,9 +186,9 @@ I would put the name of the publication as well as publication month and year be
 
 #### Screenshots
 
-![Poem Page Screenshot](poem3.png)
+![Poem Page Screenshot](images/poem3.png)
 
-![Item Information Screenshot](iteminfo3.png)
+![Item Information Screenshot](images/iteminfo3.png)
 
 ---
 

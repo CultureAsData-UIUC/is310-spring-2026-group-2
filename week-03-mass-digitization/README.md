@@ -70,10 +70,10 @@
 - How I searched:
 I used the African American Periodical Poetry dataset to find the poem title, author, magazine name, and year. I searched HathiTrust by the magazine title (Opportunity) rather than the poem title, since poems are included within full magazine issues. After opening the correct issue, I used the search feature to locate the poem and navigated to the correct page.
 
-- Was it easy to find:
+- Was it easy to find?
 Yes, it was easy to find once I opened the correct issue. The search feature made locating the poem quick and straightforward.
 
-- Challenge encountered:
+- Challenge encountered?
 There were very few challenges. The main requirement was knowing the magazine name ahead of time, since poems are not listed individually.
 
 #### OCR Observations
@@ -145,20 +145,48 @@ I would include page-level links and more contextual information to better conne
 **Issue Date:**  
 **HathiTrust Link:**  
 
-#### Search Process
+### Search Process
 - How I searched:
-- Was it easy to find:
-- Challenge encountered:
 
-#### OCR Observations
-- OCR issue noticed:
-- Another issue:
-- How this affects research:
+- Was it easy to find?
 
-#### Context Comparison
-- Context gained from original page:
-- What the dataset removes:
-- What the dataset makes easier:
+- Challenge encountered?
+
+### OCR Observations
+- Can you search for specific words or phrases within the document?
+
+- How accurate is the searchable text compared to the page images?
+
+- What kinds of errors do you notice? (fonts, layout, damaged pages, etc.)
+
+- How might this affect research using this material?
+
+### Understanding Context
+- What additional context do you gain from seeing the original page?
+
+- What else appears on the page or in the issue alongside the poem?
+
+- What information was lost in creating just the dataset of poems?
+
+- What information was gained by creating the structured dataset?
+
+### Access and Rights
+- Can you download the full PDF? Individual page images?
+
+- Are there any access restrictions? (full view vs. limited preview)
+
+- What copyright or usage information is provided?
+
+- How does HathiTrust balance preservation, access, and copyright?
+
+### Metadata and Organization
+- What metadata is provided for the item you’re viewing?
+
+- How does this compare to the MARC records discussed in class?
+
+- What other data could have the authors collected?
+
+- Would you organize the dataset differently?
 
 #### Screenshots
 *(Insert screenshots name the file that for it to show up)*
@@ -166,35 +194,6 @@ I would include page-level links and more contextual information to better conne
 ![Poem Page Screenshot](poem3.png)
 
 ![Item Information Screenshot](iteminfo3.png)
-
----
-
-## Access & Rights
-
-- Access level (Full View or Limited):
-- Download options available:
-- Copyright or usage information:
-- Observations on preservation vs access:
-
----
-
-## Metadata and Organization
-
-**Metadata provided**
-- Title
-- Author
-- Publication date
-- Publisher
-- Subjects
-- Other:
-
-**Comparison to MARC-style records**
-- Observations:
-
-**Suggested additional metadata**
-- Example:
-- Example:
-- Example:
 
 ---
 
@@ -283,6 +282,6 @@ I would include page-level links and more contextual information to better conne
 # Member Contributions
 
 - Jesus Vazquez: Formatted github repo and README.md, located one poem in HathiTrust, analyzed OCR quality, and compared dataset context to original page.
-- Member 2:
+- Javier Martinez: Reformatted Part 1 and completed one full poem analysis addressing all questions.
 - Member 3:
 - Member 4:

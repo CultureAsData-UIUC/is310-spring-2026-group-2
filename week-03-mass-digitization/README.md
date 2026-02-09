@@ -150,43 +150,41 @@ I would include page-level links and more contextual information to better conne
 - Challenge encountered: One challenge is that the text I was using for the OCR search was slightly different as it didnt recognize that the text had a new line after the first few words, thus I had to modify the text I searched for(shortening the quote) to find my poem.
 
 ### OCR Observations
-- Can you search for specific words or phrases within the document? 
-Yes, some phases are combined so searching is a little bit off, but most words & phases work.
-- How accurate is the searchable text compared to the page images?
-
-- What kinds of errors do you notice? (fonts, layout, damaged pages, etc.)
-
-- How might this affect research using this material?
+- Minor differences or oddities with OCR: Some phases are combined, so searching is a little bit off, but most words & phases work.
+- Other Issues: Similar to what Jesus observed the OCR seems to have some trouble with line breaks or the continuation of text onto a new line.
+- The text is pretty legiable, but on smaller print the text seems a bit blurry legibility-wise.
+- How might this affect research: Some things like phases being grouped together makes it abit more difficult to search for a very particualar line of text if you dont know it needs more parts of the line to show up as a result.
 
 ### Understanding Context
-- What additional context do you gain from seeing the original page?
-
-- What else appears on the page or in the issue alongside the poem?
-
-- What information was lost in creating just the dataset of poems?
-
-- What information was gained by creating the structured dataset?
+- Context gained from original page: The poem is one part of a bigger text, where the original page only gives the context that it was a poem. It also offers that the poem is a tribute to the at the time somewhat recently past Joseph Pulitzer. There also is an additional bit on why he is being honored with the section in the context of being more fair to the black community than other publications in New York.
+- What information was lost with the dataset: The dataset removes the context for why the poem is in the magazine, and specifically the whole contents or text of the poem. Things like sub-headings, layout/formatting, and page the poem appears on were lost.
+- What information was gained the structured dataset: The structured dataset allowed discovery of the poem to be easier, as one doesnt need to specifically go through all magazines to find if theres poems and what the poem is. Searchability and accessibility is gained specifically for poems.
 
 ### Access and Rights
 - Can you download the full PDF? Individual page images?
+Specific pages can be downloaded as images, PDF, or TXT file. However in order to download the full magazine you must be apart of an affiliated institution.
 
 - Are there any access restrictions? (full view vs. limited preview)
+Full view of the document is available, and is not a limited preview of the full magazine.
 
 - What copyright or usage information is provided?
+The magazine is stated to be public domain, and thus can be used as public-domain documents are able to be used.
 
 - How does HathiTrust balance preservation, access, and copyright?
+HathiTrust provides a platform that hosts the document to be accessible and viewable, but limits the ability for the full document to be downloaded, and google are the ones who scanned the document so links to their services with the document are provided. There also is an Owner-ID number for each page.
 
 ### Metadata and Organization
 - What metadata is provided for the item you’re viewing?
-
+Title of the Magazine, The title of the particular volume of the magazine, publication year, version date/time, the institution that digitized the document, Section pages, and section scan order are all forms of metadata that is provided.
 - How does this compare to the MARC records discussed in class?
+There is relevant information pertaining to finding the document, version creation, and other data needed for library catalog for the origin of the particular document scan.
 
 - What other data could have the authors collected?
-
+Specific section titles rather than the "Section ##" format they are using, as there are headings for each part of the magazine that helps tell what kind of information is being written in that particular part. 
 - Would you organize the dataset differently?
+I would put the name of the publication as well as publication month and year before the sample of text that is provided in the dataset.
 
 #### Screenshots
-*(Insert screenshots name the file that for it to show up)*
 
 ![Poem Page Screenshot](poem3.png)
 
@@ -279,10 +277,6 @@ Yes, some phases are combined so searching is a little bit off, but most words &
 # Member Contributions
 
 - Jesus Vazquez: Formatted github repo and README.md, located one poem in HathiTrust, analyzed OCR quality, and compared dataset context to original page.
-<<<<<<< HEAD
-- Charles Cantrell:
-=======
 - Javier Martinez: Reformatted Part 1 and completed one full poem analysis addressing all questions.
->>>>>>> 56c2728569debfa9c724d0329a2b22bb8ed81f91
-- Member 3:
+- Charles Cantrell: Located poem from Hennessey dataset on HathiTrust, did OCR analysis, discussed section formatting for group portioning with Jesus.
 - Member 4:

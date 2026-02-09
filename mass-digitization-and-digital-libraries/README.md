@@ -48,7 +48,6 @@
 - What the dataset makes easier: The dataset makes it easier to seach organize, and analyze poems across many different issues.
 
 #### Screenshots
-*(Insert screenshots name the file that for it to show up)*
 
 ![Poem Page Screenshot](images/poem1.png)
 
@@ -128,7 +127,6 @@ Page numbers for individual poems or direct links to the poem’s page could hav
 I would include page-level links and more contextual information to better connect each poem to its original magazine setting.
 
 #### Screenshots
-*(Insert screenshots name the file that for it to show up)*
 
 ![Poem Page Screenshot](images/poem2.png)
 

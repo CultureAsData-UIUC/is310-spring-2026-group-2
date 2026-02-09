@@ -136,24 +136,22 @@ I would include page-level links and more contextual information to better conne
 
 ---
 
-### Group Member 3
+### Charles Cantrell
 
-**Poem Title:**  
-**Author:**  
-**Magazine:**  
-**Issue Date:**  
-**HathiTrust Link:**  
+**Poem Title:** Joseph Pulitzer
+**Author:** W.E.B. Du Bois
+**Magazine:** The Crisis
+**Issue Date:** December 1911
+**HathiTrust Link:** https://babel.hathitrust.org/cgi/pt?id=msu.31293106408077&seq=67&q1=Softly%2C%20quite%20softly
 
 ### Search Process
-- How I searched:
-
-- Was it easy to find?
-
-- Challenge encountered?
+- How I searched: I searched the HathiTrust using the text under the "text" column that was in Hennessey dataset, then I specified the author as W.E.B. Du Bois, and then specified the publication range of 1910-1919. From there I opened the "The Crisis" issue and searched the text to find specifically the poem I was looking for.
+- Was it easy to find: Somewhat, I found it initially difficult until I learned how to work the search tools to search what I was wanting to find. 
+- Challenge encountered: One challenge is that the text I was using for the OCR search was slightly different as it didnt recognize that the text had a new line after the first few words, thus I had to modify the text I searched for(shortening the quote) to find my poem.
 
 ### OCR Observations
-- Can you search for specific words or phrases within the document?
-
+- Can you search for specific words or phrases within the document? 
+Yes, some phases are combined so searching is a little bit off, but most words & phases work.
 - How accurate is the searchable text compared to the page images?
 
 - What kinds of errors do you notice? (fonts, layout, damaged pages, etc.)

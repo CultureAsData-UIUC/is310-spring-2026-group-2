@@ -256,10 +256,9 @@ Our group’s shared thematic focus is gaming, understood as a cultural, social,
 
 ## Digital Objects & Representations
 - Example: player avatar, game maps
-- Why it counts as a digital object:
--player avatar: A player avatar is a digital representation of the player in the game world.
+- Why it counts as a digital object:player avatar: A player avatar is a digital representation of the player in the game world.
 -It represents the player’s identity, actions, and presence within the virtual environment.
--game maps:Game maps are digital representations of physical or imaginary spaces.
+  Game maps:Game maps are digital representations of physical or imaginary spaces.
 -They translate geography, architecture, and spatial design into navigable digital environments that players can explore and interact with.
 ---
 

@@ -287,17 +287,17 @@ Our group’s shared thematic focus is gaming, understood as a cultural, social,
 ---
 
 ## Oldest Digital Library or Archive
-**Name:Internet Archive – Software & Video Game Collection**  
-**Link:https://archive.org/details/software**  
-**How it has been maintained:The Internet Archive preserves games through long-term institutional support, community contributions, and ongoing file migration, while providing browser-based emulation to maintain access to legacy games.**  
-**Metadata or standards used:Metadata includes basic descriptive fields such as title, platform, release date, file format, and access or copyright status, emphasizing accessibility rather than strict library cataloging standards.**
+**Name:**  Internet Archive – Software & Video Game Collection
+**Link:**  https://archive.org/details/software
+**How it has been maintained:**  The Internet Archive preserves games through long-term institutional support, community contributions, and ongoing file migration, while providing browser-based emulation to maintain access to legacy games.
+**Metadata or standards used:**  Metadata includes basic descriptive fields such as title, platform, release date, file format, and access or copyright status, emphasizing accessibility rather than strict library cataloging standards.
 
 ---
 
 ## Newest Digital Library or Archive
-**Name:Video Game History Foundation – Digital Archive**  
-**Link:https://gamehistory.org/collections/**  
-**How it compares to older archives:Compared to older archives, the Video Game History Foundation emphasizes contextual and research-oriented materials—such as development documents and industry ephemera—along with more detailed curatorial metadata.**
+**Name:**  Video Game History Foundation – Digital Archive
+**Link:**  https://gamehistory.org/collections/
+**How it compares to older archives:**  Compared to older archives, the Video Game History Foundation emphasizes contextual and research-oriented materials—such as development documents and industry ephemera—along with more detailed curatorial metadata.
 
 ---
 

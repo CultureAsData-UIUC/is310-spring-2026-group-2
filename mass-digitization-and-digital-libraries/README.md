@@ -257,29 +257,33 @@ Our group’s shared thematic focus is gaming, understood as a cultural, social,
 ## Digital Objects & Representations
 - Example: player avatar, game maps
 - Why it counts as a digital object:
-player avatar: A player avatar is a digital representation of the player in the game world.
-It represents the player’s identity, actions, and presence within the virtual environment.
-game maps:Game maps are digital representations of physical or imaginary spaces.
-They translate geography, architecture, and spatial design into navigable digital environments that players can explore and interact with.
+-player avatar: A player avatar is a digital representation of the player in the game world.
+-It represents the player’s identity, actions, and presence within the virtual environment.
+-game maps:Game maps are digital representations of physical or imaginary spaces.
+-They translate geography, architecture, and spatial design into navigable digital environments that players can explore and interact with.
 ---
 
 ## Digitization Processes
 - How objects are digitized: digital modeling, animation and motion capture
 - Comparison to HathiTrust:
-Goes beyond text to include visuals, movement, sound, and interaction
-often creates new digital objects rather than directly reproducing physical ones
+-Goes beyond text to include visuals, movement, sound, and interaction.
+-Often creates new digital objects rather than directly reproducing physical ones.
+
 ---
 
 ## Historical Equivalents
-- Example:
+- Example: Boaard Games and Tabletop Games
 - Comparison to digital version:
-
+-Physical game components are limited by material form and space.
+-Digital games can automate rules, generate complex worlds, and allow real-time interaction across distances.
+-Both rely on structured rules and player participation to create meaning and play.
 ---
 
 ## Born-Digital Materials
-- Example:
+- Example: Virtual items
 - How they differ from digitized materials:
-
+-Born-digital materials are digital from creation; digitized objects originate in the physical world.
+-Born-digital materials rely entirely on software and platforms, while digitized objects preserve references to real-world originals.
 ---
 
 ## Oldest Digital Library or Archive
@@ -338,4 +342,4 @@ often creates new digital objects rather than directly reproducing physical ones
 - Jesus Vazquez: Formatted github repo and README.md, located one poem in HathiTrust, analyzed OCR quality, and compared dataset context to original page.
 - Javier Martinez: Reformatted Part 1 and completed one full poem analysis addressing all questions.
 - Charles Cantrell: Located poem from Hennessey dataset on HathiTrust, did OCR analysis, discussed section formatting for group portioning with Jesus.
-- Hongli Peng: Located poem from Hennessey dataset on HathiTrust, did OCR analysis, did first two parts of part 2
+- Hongli Peng: Located poem from Hennessey dataset on HathiTrust, did OCR analysis, did 1-4 parts of part 2

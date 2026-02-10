@@ -190,6 +190,63 @@ I would put the name of the publication as well as publication month and year be
 
 ---
 
+### Hongli Peng
+
+**Poem Title:** Green Apples
+**Author:** Daniel Webster Davis
+**Magazine:** Voice of Negro
+**Issue Date:** 1905
+**HathiTrust Link:** https://babel.hathitrust.org/cgi/pt?id=uva.x000492470&seq=778&q1=Green+apple
+
+### Search Process
+- How I searched: I searched the HathiTrust using the search inputbox to search the magazine Voice of Negro, then specified the publication range of 1905. From there I opened issue and searched the text to find specifically the poem I was looking for.
+- Was it easy to find: Pretty easy, search function make it easy to find. 
+- Challenge encountered: There wasn’t really a challenge—everything needed was already known; it just required searching.”
+
+### OCR Observations
+- OCR issue noticed: when searching, extra spaces are sometimes included in the recognized English words.
+- Other Issues: The text is readable, but not very clear.
+- How might this affect research: The extra spaces may lead to difficult search.
+
+### Understanding Context
+- What additional context do you gain from seeing the original page? Seeing the original page shows how the poem was formatted and presented
+- What else appears on the page or in the issue alongside the poem? The poem appears with other literary and editorial content in the same issue.
+- What information was lost in creating just the dataset of poems? The poetry dataset omits the original formatting of the poem, although the visual arrangement of the text is an important part of its aesthetic.
+- What information was gained by creating the structured dataset? The dataset allows poems to be more easily searched, organized.
+
+### Access and Rights
+- Can you download the full PDF? Individual page images?
+To download the full magazine as one PDF, you must be affiliated with a participating institution.
+
+- Are there any access restrictions? (full view vs. limited preview)
+The magazine issue can be viewed in its entirety online, but downloading the complete document is limited to users with institutional access.
+
+- What copyright or usage information is provided?
+The magazine is stated to be public domain, and thus can be used as public-domain documents are able to be used.
+
+- How does HathiTrust balance preservation, access, and copyright?
+HathiTrust provides access to historical materials for public viewing, but full downloads are limited to institution-affiliated users. The documents were scanned by Google, with links to their services included, and each page carries an Owner-ID for identification.
+
+### Metadata and Organization
+- What metadata is provided for the item you’re viewing?
+Title of the Magazine, The title of the particular volume of the magazine, publication year, version date/time
+
+- How does this compare to the MARC records discussed in class?
+It includes information useful for finding the document, documenting version history, and providing other details required for library cataloging of the scanned item.
+
+- What other data could have the authors collected?
+Page numbers for individual poems
+- Would you organize the dataset differently?
+I would put the direct links to the poem’s page
+
+#### Screenshots
+
+![Poem Page Screenshot](images/poem4.png)
+
+![Item Information Screenshot](images/iteminfo4.png)
+
+---
+
 # Part 2: Discovering & Digitizing Cultural Objects
 
 ## Area of Focus
@@ -277,4 +334,4 @@ I would put the name of the publication as well as publication month and year be
 - Jesus Vazquez: Formatted github repo and README.md, located one poem in HathiTrust, analyzed OCR quality, and compared dataset context to original page.
 - Javier Martinez: Reformatted Part 1 and completed one full poem analysis addressing all questions.
 - Charles Cantrell: Located poem from Hennessey dataset on HathiTrust, did OCR analysis, discussed section formatting for group portioning with Jesus.
-- Member 4:
+- Hongli Peng: Located poem from Hennessey dataset on HathiTrust, did OCR analysis

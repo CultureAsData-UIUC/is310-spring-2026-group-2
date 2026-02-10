@@ -251,19 +251,23 @@ I would put the direct links to the poem’s page
 
 ## Area of Focus
 (Describe our groups cultural focus in 1–2 sentences)
-
+Our group’s shared thematic focus is gaming, understood as a cultural, social, and economic phenomenon rather than just a technical artifact. We are interested in how video games shape player behavior, communities, identity, and meaning, and how these dimensions can be explored through data.
 ---
 
 ## Digital Objects & Representations
-- Example:
+- Example: player avatar, game maps
 - Why it counts as a digital object:
-
+player avatar: A player avatar is a digital representation of the player in the game world.
+It represents the player’s identity, actions, and presence within the virtual environment.
+game maps:Game maps are digital representations of physical or imaginary spaces.
+They translate geography, architecture, and spatial design into navigable digital environments that players can explore and interact with.
 ---
 
 ## Digitization Processes
-- How objects are digitized:
+- How objects are digitized: digital modeling, animation and motion capture
 - Comparison to HathiTrust:
-
+Goes beyond text to include visuals, movement, sound, and interaction
+often creates new digital objects rather than directly reproducing physical ones
 ---
 
 ## Historical Equivalents
@@ -334,4 +338,4 @@ I would put the direct links to the poem’s page
 - Jesus Vazquez: Formatted github repo and README.md, located one poem in HathiTrust, analyzed OCR quality, and compared dataset context to original page.
 - Javier Martinez: Reformatted Part 1 and completed one full poem analysis addressing all questions.
 - Charles Cantrell: Located poem from Hennessey dataset on HathiTrust, did OCR analysis, discussed section formatting for group portioning with Jesus.
-- Hongli Peng: Located poem from Hennessey dataset on HathiTrust, did OCR analysis
+- Hongli Peng: Located poem from Hennessey dataset on HathiTrust, did OCR analysis, did first two parts of part 2

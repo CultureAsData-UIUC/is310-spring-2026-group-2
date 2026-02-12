@@ -304,10 +304,12 @@ They translate geography, architecture, and spatial design into navigable digita
 
 ---
 
-## Viral Example
+## Skins as culture and storytelling
+Skins are just a digital object but they let players signal who they are and how they want to be seen. Many iconic skins are tied to esports moments, streamers, or specific eras of the game. 
 **Example:**  
-**How it went viral:**  
+In Counter Strike history, there are various skins or stickers (Digital Objects) that function like portable pieces of Counter Strike history. Souvenir skins and Major stickers turn a weapon into a story. If someone seems a Souvenir AWP Dragon Lore with a particular sticker combo, they could recognize a specific tournament, player, team or a legendary moment. Over time these digital objects become part of the culture and story of Counter Strike, they start to look more like collectibles than just digital objects, because they preserve events, rosters and memories.
 **Impact:**
+The surrounding marketplaces, clips, screenshots, moments are all just data that show how people live and express themselves in an online game. This further increases the need to create digital libraries and archives that preserve these stories. 
 
 ---
 
@@ -347,4 +349,5 @@ They translate geography, architecture, and spatial design into navigable digita
 - Charles Cantrell: Located poem from Hennessey dataset on HathiTrust, did OCR analysis, discussed section formatting for group portioning with Jesus.
 - Hongli Peng: Located poem from Hennessey dataset on HathiTrust, did OCR analysis, did 1-4 parts of part 2
 - Raymond Lu: Finished 5-6 paarts of part 2
+- Anshuman Satpute: Finished 7-8 parts of part 2, cultural context analysis for digital objects. 
 

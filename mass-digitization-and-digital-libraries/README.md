@@ -299,7 +299,7 @@ They translate geography, architecture, and spatial design into navigable digita
 
 ## Newest Digital Library or Archive
 - Name: Video Game History Foundation – Digital Archive
-- Link: https://gamehistory.org/collections/
+- Link: https://gamehistory.org
 - How it compares to older archives: Compared to older archives, the Video Game History Foundation emphasizes contextual and research-oriented materials—such as development documents and industry ephemera—along with more detailed curatorial metadata.
 
 ---

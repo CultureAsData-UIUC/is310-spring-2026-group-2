@@ -1,0 +1,18 @@
+import pandas as pd
+
+df = pd.read_csv("Semester Project/Jesus V/Initial Dataset/esports_games_bespoke.csv")
+
+print("\nFirst 10 rows:")
+print(df.head(10))
+
+print("\nLast 10 rows:")
+print(df.tail(10))
+
+print("\nRandom sample:")
+print(df.sample(10))
+
+print("\nColumns:")
+print(df.columns)
+
+print("\nDataset shape:")
+print(df.shape)

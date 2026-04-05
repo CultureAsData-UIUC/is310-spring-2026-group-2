@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("Semester Project/Jesus V/Initial Dataset/GeneralEsportData.csv")
+df = pd.read_csv("GeneralEsportData.csv")
 
 df = df.dropna(subset=["Genre"])
 

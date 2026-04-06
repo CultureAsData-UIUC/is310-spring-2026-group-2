@@ -1,98 +1,119 @@
+import os
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
-df = pd.read_csv("Semester Project/Jesus V/Initial Dataset/GeneralEsportData.csv")
+# get the folder where this script is saved
+script_dir = os.path.dirname(__file__)
 
-df = df.dropna(subset=["Genre"])
+# build file path to original csv
+input_file = os.path.join(script_dir, "GeneralEsportData.csv")
 
-print("Genre distribution:")
-print(df["Genre"].value_counts())
+# load dataset
+df = pd.read_csv(input_file)
 
+# remove rows with missing genre
+df = df.dropna(subset=["Genre"]).copy()
+
+# set seed so sample stays the same
 np.random.seed(42)
 
-TARGET_SIZE = 75
+# target sample size
+target_size = 75
 
+# get unique genres
 genres = df["Genre"].unique()
 num_genres = len(genres)
 
-per_genre = max(1, TARGET_SIZE // num_genres)
+# sample roughly evenly across genres
+per_genre = max(1, target_size // num_genres)
 
 balanced_sample = []
 
 for genre in genres:
-    
     genre_df = df[df["Genre"] == genre]
-    
-    sample = genre_df.sample(min(len(genre_df), per_genre))
-    
+
+    if len(genre_df) <= per_genre:
+        sample = genre_df
+    else:
+        sample = genre_df.sample(per_genre, random_state=42)
+
     balanced_sample.append(sample)
 
 balanced_df = pd.concat(balanced_sample)
 
-if len(balanced_df) < TARGET_SIZE:
-    
-    remaining = TARGET_SIZE - len(balanced_df)
-    
-    extra = df[~df["Game"].isin(balanced_df["Game"])].sample(remaining)
-    
-    balanced_df = pd.concat([balanced_df, extra])
+# fill remaining rows if needed
+if len(balanced_df) < target_size:
+    remaining = target_size - len(balanced_df)
+    extra_df = df[~df["Game"].isin(balanced_df["Game"])]
 
-balanced_df = balanced_df.head(75).copy()
+    if len(extra_df) >= remaining:
+        extra_sample = extra_df.sample(remaining, random_state=42)
+        balanced_df = pd.concat([balanced_df, extra_sample])
 
-def competitive_level(row):
-    
-    if row["TotalEarnings"] >= 10000000 or row["TotalTournaments"] >= 500:
-        return "High"
-    
-    elif row["TotalEarnings"] >= 1000000:
-        return "Medium"
-    
+# keep exactly 75 rows
+balanced_df = balanced_df.head(target_size).copy()
+
+# create stronger analytical columns
+balanced_df["EarningsPerPlayer"] = balanced_df["TotalEarnings"] / balanced_df["TotalPlayers"]
+balanced_df["EarningsPerTournament"] = balanced_df["TotalEarnings"] / balanced_df["TotalTournaments"]
+
+# clean up infinite or missing values
+balanced_df["EarningsPerPlayer"] = balanced_df["EarningsPerPlayer"].replace([np.inf, -np.inf], np.nan)
+balanced_df["EarningsPerTournament"] = balanced_df["EarningsPerTournament"].replace([np.inf, -np.inf], np.nan)
+
+# fill missing values with 0 for easier reading
+balanced_df["EarningsPerPlayer"] = balanced_df["EarningsPerPlayer"].fillna(0)
+balanced_df["EarningsPerTournament"] = balanced_df["EarningsPerTournament"].fillna(0)
+
+# tier based on total earnings
+def assign_tier(earnings):
+    if earnings >= 100000000:
+        return "Tier 1 (Elite)"
+    elif earnings >= 10000000:
+        return "Tier 2 (Established)"
     else:
-        return "Low"
+        return "Tier 3 (Emerging)"
 
+balanced_df["Tier"] = balanced_df["TotalEarnings"].apply(assign_tier)
 
-def region_popularity(row):
-    
-    game = str(row["Game"]).lower()
-    
+# region popularity guesses based on well-known scenes
+def region_popularity(game_name):
+    game = str(game_name).lower()
+
     if "starcraft" in game:
         return "South Korea/Global"
-    
     elif "league of legends" in game:
         return "Global"
-    
-    elif "counter" in game:
-        return "Europe/Global"
-    
     elif "dota" in game:
         return "Global"
-    
-    elif "fifa" in game:
+    elif "counter" in game:
         return "Europe/Global"
-    
+    elif "fifa" in game or "ea sports fc" in game:
+        return "Europe/Global"
     elif "call of duty" in game or "halo" in game:
         return "North America"
-    
+    elif "pubg" in game:
+        return "Asia/Global"
     else:
         return "Global"
 
+balanced_df["RegionPopularity"] = balanced_df["Game"].apply(region_popularity)
 
+# notes column
 def notes(row):
-    
-    if row["TotalEarnings"] >= 20000000:
-        return "Very large esports prize pool history"
-    
-    elif row["TotalTournaments"] >= 1000:
-        return "Long running competitive scene"
-    
+    if row["TotalEarnings"] >= 100000000:
+        return "One of the most dominant esports by prize money"
+    elif row["EarningsPerPlayer"] >= 100000:
+        return "High average earnings per player"
+    elif row["TotalTournaments"] >= 500:
+        return "Long-running competitive scene"
     else:
         return "Established esports title"
 
-
-balanced_df["CompetitiveLevel"] = balanced_df.apply(competitive_level, axis=1)
-balanced_df["RegionPopularity"] = balanced_df.apply(region_popularity, axis=1)
 balanced_df["Notes"] = balanced_df.apply(notes, axis=1)
 
+# reorder columns
 final_df = balanced_df[
     [
         "Game",
@@ -101,14 +122,78 @@ final_df = balanced_df[
         "TotalEarnings",
         "TotalPlayers",
         "TotalTournaments",
+        "EarningsPerPlayer",
+        "EarningsPerTournament",
+        "Tier",
         "RegionPopularity",
-        "CompetitiveLevel",
         "Notes"
     ]
-]
+].copy()
 
-final_df.to_csv("esports_games_bespoke.csv", index=False)
+# save csv
+output_csv = os.path.join(script_dir, "Bespoke_Esports_Dataset.csv")
+final_df.to_csv(output_csv, index=False)
 
-print("Dataset created!")
-print("Rows:", len(final_df))
-print(final_df.head())
+# show a preview
+pd.set_option("display.max_columns", None)
+pd.set_option("display.width", 1000)
+
+print("dataset created successfully")
+print("rows:", len(final_df))
+print("\nfirst 10 rows:")
+print(final_df.head(10))
+
+# -------------------------
+# visualizations
+# -------------------------
+
+# top 10 by total earnings
+top_earnings = final_df.sort_values(by="TotalEarnings", ascending=False).head(10)
+
+plt.figure()
+plt.bar(top_earnings["Game"], top_earnings["TotalEarnings"])
+plt.title("Top 10 Esports Games by Total Earnings")
+plt.xlabel("Game")
+plt.ylabel("Total Earnings")
+plt.xticks(rotation=45, ha="right")
+plt.tight_layout()
+
+earnings_plot = os.path.join(script_dir, "top_10_total_earnings.png")
+plt.savefig(earnings_plot)
+plt.show()
+
+# top 10 by earnings per player
+top_per_player = final_df.sort_values(by="EarningsPerPlayer", ascending=False).head(10)
+
+plt.figure()
+plt.bar(top_per_player["Game"], top_per_player["EarningsPerPlayer"])
+plt.title("Top 10 Games by Earnings Per Player")
+plt.xlabel("Game")
+plt.ylabel("Earnings Per Player")
+plt.xticks(rotation=45, ha="right")
+plt.tight_layout()
+
+per_player_plot = os.path.join(script_dir, "top_10_earnings_per_player.png")
+plt.savefig(per_player_plot)
+plt.show()
+
+# top 10 by earnings per tournament
+top_per_tournament = final_df.sort_values(by="EarningsPerTournament", ascending=False).head(10)
+
+plt.figure()
+plt.bar(top_per_tournament["Game"], top_per_tournament["EarningsPerTournament"])
+plt.title("Top 10 Games by Earnings Per Tournament")
+plt.xlabel("Game")
+plt.ylabel("Earnings Per Tournament")
+plt.xticks(rotation=45, ha="right")
+plt.tight_layout()
+
+per_tournament_plot = os.path.join(script_dir, "top_10_earnings_per_tournament.png")
+plt.savefig(per_tournament_plot)
+plt.show()
+
+print("\nfiles saved:")
+print(output_csv)
+print(earnings_plot)
+print(per_player_plot)
+print(per_tournament_plot)

@@ -1,0 +1,28 @@
+# Individual Article Analysis
+
+## Article Summary Information
+
+**Authors:** Arvind Nohar
+**Title:** Predicting Player Satisfaction in Steam Games: A Machine Learning Approach
+**Venue:** Master’s Thesis, Tilburg University (School of Humanities and Digital Sciences)
+**Year:** 2023
+**Paper:** https://arno.uvt.nl/show.cgi?fid=171829 
+**Code Repository:** https://github.com/ArvindEXE/DSS-thesis
+
+## Part 1: AI Summary
+
+**Prompt used:** Generate a 1–2 paragraph summary on this article, focusing on how data is analysed.
+
+**AI-generated summary:**  
+
+The paper "Predicting Player Satisfaction in Steam Games: A Machine Learning Approach" by Arvind Nohar investigates the factors that drive player sentiment and game success on the Steam platform. By utilizing a dataset of user reviews and game metadata, Nohar employs various machine learning techniques—including Sentiment Analysis and Random Forest classifiers—to determine which features most accurately predict whether a player will have a positive experience. The research highlights that while traditional metrics like price and genre play a role, the qualitative data embedded within user reviews provides the most significant signal for predicting overall satisfaction levels.
+
+A core component of the study is the development of a predictive model that balances objective game attributes with subjective player feedback. Nohar demonstrates that machine learning can effectively categorize games into "satisfied" or "unsatisfied" cohorts with high accuracy. This approach offers valuable insights for game developers and publishers, suggesting that data-driven analysis of early player feedback can be used to pivot development strategies, improve game mechanics, and ultimately enhance long-term commercial viability in a highly competitive digital marketplace.
+
+## Part 2: Critical Assessment
+In this thesis, the cultural data is made up of commercial PC games available on Steam, which is shown through platform metadata (like Steam store data and SteamCharts player counts) and combined critic scores (the Metacritic Metascore). The author creates the dataset by merging publicly accessible Steam API data, the FronkonGames Kaggle Steam dataset, player-count statistics from SteamCharts that were scraped using a custom tool, and the Metascore from Metacritic. After cleaning and selecting features, they end up with about 1,900 games. This results in a detailed tabular overview of each game, including price, DLC count, languages, genres, and the history of developers/publishers, as well as player counts. But it doesn’t include the actual review texts, marketing content, or in-game material, meaning it can't capture how players discuss games or the aesthetic qualities of the games themselves. Also, “player satisfaction” is reduced to a single numerical Metascore, and complex cultural aspects like narrative, representation, community norms, or controversy are only indirectly shown through related features like popularity and price. 
+
+From a computational standpoint, this thesis employs a combination of feature engineering and supervised machine learning regression techniques (like Linear Regression, Decision Trees, Random Forest, Gradient Boosting, XGBoost, and LightGBM) to forecast the Metascore based on the engineered features of games. On a conceptual level, these methods convert diverse platform metadata into a high-dimensional feature vector for each game, allowing for the learning of intricate, non-linear relationships between those features and an outcome that represents 'player satisfaction.' Additionally, there's an analysis of feature importance and clustering to determine which attributes are most significant. The main goal of the computation here is analytical: to assess how effectively various models can predict Metascore and to pinpoint which features (like average players, release date, number of games released, price, etc.) have the greatest impact. This predictive approach drives both the data and the assertions towards what can be measured on a large scale; computation is truly essential for fitting and comparing multiple machine learning models across nearly two thousand games and for systematically ranking feature importance. However, it also promotes a limited view of satisfaction, leaving larger cultural questions about players' experiences with games mostly unexplored.
+
+## Part 3: What AI Missed
+The AI summary does a good job of pinpointing the overall area (Steam games), the application of machine learning, and the aim of forecasting some idea of player reaction. However, it inaccurately portrays both the data and the methods in significant ways. The thesis doesn't really utilize user review text or Sentiment Analysis instead it forecasts Metascore (an aggregated critic score from Metacritic) as a stand-in for "player satisfaction" by relying on structured game metadata and player counts, rather than qualitative review content. It also employs regression algorithms (Random Forest Regressor, Gradient Boosting, XGBoost, LightGBM) to estimate a continuous score and assess feature importance rather than a classifier that categorizes games into "satisfied/unsatisfied" groups or a process focused on early player feedback. By incorporating vague language about "user reviews," "sentiment," and "Random Forest classifiers," the AI summary simplifies crucial methodological decisions. In this way, it reduces the complexity of the connection between computation and culture, transforming a detailed, feature-engineering-intensive regression study into a more generic narrative about "sentiment on reviews" that the actual thesis does not endorse.

@@ -15,3 +15,34 @@ The article, *FAIRGAMER: Evaluating Biases in the Application of Large Language 
 Computation is used to run these scenarios through different models and measure how their decisions change across groups. The authors use a benchmark to track bias by looking at patterns in decisions, not just single responses. This works well for large-scale analysis, but the results depend a lot on how the scenarios are designed.
 
 Overall, computation is necessary here, but it also shapes what counts as “bias” in the first place. The AI summary got the general idea right, but it missed some details and even included incorrect terms. It also didn’t really explain that the data is simulated, which is important for understanding the limits of the study.
+
+### Step 2: Map How Computation Is Being Used
+
+- Analysis:
+  - Main: Jesus Vazquez
+  - Comments: 
+
+Across both articles, computation is primarily used for analysis by identifying patterns in large-scale data. In my article, computation analyzes both video frames and Twitch chat data using a multimodal deep learning model to predict highlight moments. The model detects patterns in visual intensity and audience reactions to determine what moments are considered important. This allows researchers to process thousands of frames and chat messages that would be impossible to analyze manually.
+
+In Javier’s article, computation is also used for analysis but in a different way. Instead of real-world data, it uses simulated scenarios to test how large language models behave across different social categories. The models are evaluated by comparing patterns in their decisions to detect bias. This shows how computation can be used not just to find patterns, but to evaluate systems and measure fairness.
+
+Together, both articles show that computation is being used to analyze complex datasets at scale, but the type of data (real vs simulated) changes what the analysis represents. While both approaches are effective, they also depend heavily on how the data is structured, which can influence the results and limit how well they reflect real cultural experiences.  
+
+### Step 3: Find Trends, Divergences, and Silences
+
+- Trends: Jesus Vazquez 
+
+A clear trend across both articles is the reliance on computation to analyze large-scale datasets that would be difficult or impossible to process manually. Both studies use computational models to detect patterns, whether it is identifying highlight moments in esports or measuring bias in AI systems. This shows that computation is often used as a tool to scale analysis and make sense of complex cultural or social data.
+
+Another trend is that both articles rely on structured datasets that are either constructed or simulated. In my article, highlight labels are created through alignment methods, while in Javier’s article, the data is fully simulated through designed scenarios. This suggests that a lot of computational cultural research depends on how data is built before analysis even begins.
+
+Overall, these trends show that while computation is powerful, it often simplifies or reshapes the data in ways that can limit how accurately it represents real-world experiences.  
+
+
+### Contributions
+
+- Jesus Vazquez:
+  - Completed full individual article analysis (AI summary, critical assessment, and AI critique)
+  - Wrote Step 1 article overview
+  - Wrote Step 2 (Analysis section)
+  - Wrote Step 3 (Trends section)

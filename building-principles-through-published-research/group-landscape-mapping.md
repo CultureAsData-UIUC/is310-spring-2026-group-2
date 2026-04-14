@@ -8,13 +8,19 @@ My article, *Video Highlight Prediction Using Audience Chat Reactions* (Fu et al
 
 The computational method combines computer vision and natural language processing into a multimodal deep learning model. The model analyzes both video frames and chat messages to predict highlights. Computation plays a major role in analyzing large-scale data that would be difficult to process manually, but it also introduces limitations. For example, the way highlights are labeled and how chat is interpreted can shape the results and reinforce certain biases. Overall, the article shows that computation is useful, but it does not fully capture the complexity of cultural meaning in esports.
 
-## Javier Martinez - Article Overview##
+**Javier Martinez - Article Overview**
 
 The article, *FAIRGAMER: Evaluating Biases in the Application of Large Language Models to Video Games* (Shi et al., 2025), looks at bias in large language models when they’re used in video games as NPCs. The data isn’t from real players, it’s built using simulated game scenarios from different games, with things like race, nationality, and roles included in the prompts. That makes it easier to test, but it also doesn’t fully reflect real gameplay or how people actually interact in games. 
 
 Computation is used to run these scenarios through different models and measure how their decisions change across groups. The authors use a benchmark to track bias by looking at patterns in decisions, not just single responses. This works well for large-scale analysis, but the results depend a lot on how the scenarios are designed.
 
 Overall, computation is necessary here, but it also shapes what counts as “bias” in the first place. The AI summary got the general idea right, but it missed some details and even included incorrect terms. It also didn’t really explain that the data is simulated, which is important for understanding the limits of the study.
+
+**Charles Cantrell - Article Overview**
+
+*From Fads to Classics: Analyzing Video Game Trend Evolutions through Steam Tags* is an attempt to quantify how video game genres and features shift in popularity by treating Steam tags as cultural signals. The dataset spans game releases from 2012 to 2024, but a issue is that it measures what developers released rather than what players were engaging with. Thus a surge in RPG-tagged games may not necessarily mean players were playing/wanted more RPGs. Tags are also community-assigned and retroactively applied, meaning a game released in 2013 might carry labels that reflect how players viewed the game in 2020, which adds difficuty to claims about historical genre evolution.
+
+On the computational side the authors build custom trend metrics to produce three interpretable scores tracking how tags rise and fall over time. The thresholds in this process are not neutral choices since they define what counts as a meaningful shift meaning the model is partially constructing what gets recognized as a trend. The paper still relies on industry experts to explain why trends behave the way they do even after computation. The AI summary I generated got the general pipeline right but missed the supply versus demand issue aswell as the retroactive tagging issue. Both are important to the evaluation of the study's claim.
 
 ### Step 2: Map How Computation Is Being Used
 

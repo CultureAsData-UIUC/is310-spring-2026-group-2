@@ -14,7 +14,7 @@ The article, *FAIRGAMER: Evaluating Biases in the Application of Large Language 
 
 Computation is used to run these scenarios through different models and measure how their decisions change across groups. The authors use a benchmark to track bias by looking at patterns in decisions, not just single responses. This works well for large-scale analysis, but the results depend a lot on how the scenarios are designed.
 
-Overall, computation is necessary here, but it also shapes what counts as “bias” in the first place. The AI summary got the general idea right, but it missed some details and even included incorrect terms. It also didn’t really explain that the data is simulated, which is important for understanding the limits of the study.
+Overall, computation is necessary here, but it also shapes what counts as “bias” in the first place. The AI summary got the general idea right, but it missed some details and didn’t fully explain some key parts. It also didn’t really explain that the data is simulated, which is important for understanding the limits of the study.
 
 ### Step 2: Map How Computation Is Being Used
 

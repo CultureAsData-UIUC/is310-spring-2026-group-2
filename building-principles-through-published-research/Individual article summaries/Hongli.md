@@ -3,7 +3,6 @@
 ## Article Summary Information
 - **Authors:** Tao, Jianrong ; Xiong, Yu ; Zhao, Shiwei ; Wu, Runze ; Shen, Xudong ; Lyu, Tangjie ; Fan, Changjie ; Hu, Zhipeng ; Zhao, Sha ; Pan, Gang 
 - **Title:** Explainable AI for Cheating Detection and Churn Prediction in Online Games 
-- **Venue:** Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP)  
 - **Year:** 2023
 - **DOI:** https://doi.org/10.1109/TG.2022.3173399
 - **Code Repository:** https://github.com/fuxiAIlab/GXAI/tree/master

@@ -18,7 +18,7 @@
 **AI-generated summary:**  
 The article proposes a game explainable AI (GXAI) framework that leverages multi-view data to improve both prediction performance and interpretability in online gaming tasks. The data comes from four complementary sources: (1) character portrait data (player profiles and attributes), (2) behavior sequence data (in-game actions over time), (3) client image data (visual or rendered gameplay evidence), and (4) social graph data (player interactions and networks). These heterogeneous data streams are modeled using corresponding classifiers, each paired with explanation methods to make their predictions transparent. The system integrates these views to capture complex player behavior patterns while maintaining interpretability.
 
-Computationally, the framework combines black-box machine learning models (for strong predictive power) with explainability techniques that operate at individual, local, and global levels. The approach is validated on real-world datasets for cheating detection and player churn prediction, showing strong classification accuracy alongside meaningful explanations. Key findings include the ability to uncover behavioral and social patterns linked to cheating or churn, as well as practical benefits such as generating evidence for decisions, debugging models, and improving efficiency through model compression. The deployed system in NetEase Games demonstrated real-world utility and received positive user feedback, highlighting the value of integrating explainability into AI systems for online games.
+
 ---
 
 ## Part 2: Critical Assessment

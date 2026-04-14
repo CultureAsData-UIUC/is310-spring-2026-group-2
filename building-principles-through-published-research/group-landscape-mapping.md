@@ -30,7 +30,7 @@ On the computational side the authors build custom trend metrics to produce thre
 
 - Analysis:
   - Main: Jesus Vazquez
-  - Comments: Javier Martinez
+  - Comments: Javier Martinez, Charles Cantrell
 
 Across both articles, computation is primarily used for analysis by identifying patterns in large-scale data. In my article, computation analyzes both video frames and Twitch chat data using a multimodal deep learning model to predict highlight moments. The model detects patterns in visual intensity and audience reactions to determine what moments are considered important. This allows researchers to process thousands of frames and chat messages that would be impossible to analyze manually.
 

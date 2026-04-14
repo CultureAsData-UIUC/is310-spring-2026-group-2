@@ -8,7 +8,7 @@ My article, *Video Highlight Prediction Using Audience Chat Reactions* (Fu et al
 
 The computational method combines computer vision and natural language processing into a multimodal deep learning model. The model analyzes both video frames and chat messages to predict highlights. Computation plays a major role in analyzing large-scale data that would be difficult to process manually, but it also introduces limitations. For example, the way highlights are labeled and how chat is interpreted can shape the results and reinforce certain biases. Overall, the article shows that computation is useful, but it does not fully capture the complexity of cultural meaning in esports.
 
-## Javier Martinez - Article Overview##
+**Javier Martinez - Article Overview**
 
 The article, *FAIRGAMER: Evaluating Biases in the Application of Large Language Models to Video Games* (Shi et al., 2025), looks at bias in large language models when they’re used in video games as NPCs. The data isn’t from real players, it’s built using simulated game scenarios from different games, with things like race, nationality, and roles included in the prompts. That makes it easier to test, but it also doesn’t fully reflect real gameplay or how people actually interact in games. 
 

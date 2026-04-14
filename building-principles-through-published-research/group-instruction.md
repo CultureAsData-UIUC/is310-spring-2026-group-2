@@ -16,13 +16,7 @@ role description:
 - Do an overview of your article based on rubric [Everyone]
 
 ### Step 2: Map How Computation Is Being Used
-- Augmentation:
-    - Main: [Name]
-    - Comments: [Name(s)]
 - Analysis: 
-    - Main: [Name]
-    - Comments: [Name(s)]
-- Communication: 
     - Main: [Name]
     - Comments: [Name(s)]
 

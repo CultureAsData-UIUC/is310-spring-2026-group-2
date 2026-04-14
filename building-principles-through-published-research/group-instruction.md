@@ -27,6 +27,6 @@ role description:
     - Comments: [Name(s)]
 
 ### Step 3: Find Trends, Divergences, and Silences
-- Trends: [Name]
+- Trends: [Javier M]
 - Divergences: [Name]
 - Silences: [Name]

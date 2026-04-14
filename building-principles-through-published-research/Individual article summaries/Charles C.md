@@ -24,10 +24,10 @@ To analyze these proportions, the authors develop four custom metrics using Cohe
 ---
 
 ## Part 2: Critical Assessment
-
-
+The cultural data being analyzed consists of Steam tags, which are user-generated labels attached to games on Steam, combined with game release records spanning 2012 to 2024. The tags reflect collective classification by the community. The data captures supply rather than demand meaning a tag appearing on many released games says nothing about whether those games found an audience. The dataset is also Steam-exclusive meaning the data is skewed to PC gaming. Older games can receive labels that reflect contemporary views rather than how they were viewed at release due to the fact tags are retro actively assigned. On the computational side they transformed raw proportions for better analysis. Computation here is simultaneously augmenting, analyzing, and communicating the data. The method of scaling shapes what counts as a "trend" thus thresholds are not neutral, and hold assumptions about what a meaningful cultural shift looks like. The method risks mistaking developer behavior for cultural significance, and the question of why some trends endure is still answered by human experts after computation.
 
 ---
 
 ## Part 3: What AI Missed
+Misses that the data is tracked games released rather than games played or purchased, which is a specific choice the authors acknowledge as a limitation. Skips that Steam tags are user-assigned and can be inconsistent, mislabeled, or retroactively applied to older games. The summary mentions the sparse PCA but does not explain why it was necessary or what problem it solved, making the method sound more straightforward than it is. Left out the future-dependency versus future-obliviousness distinction, which affects how early trends are detected. Doesn't engage with the core limitation that tags are assigned at a game's release and cannot capture how a game changes over time through updates or DLC, which is especially relevant for live-service games that evolve significantly after launch.
 

@@ -20,13 +20,17 @@ Overall, computation is necessary here, but it also shapes what counts as “bia
 
 - Analysis:
   - Main: Jesus Vazquez
-  - Comments: 
+  - Comments: Javier Martinez
 
 Across both articles, computation is primarily used for analysis by identifying patterns in large-scale data. In my article, computation analyzes both video frames and Twitch chat data using a multimodal deep learning model to predict highlight moments. The model detects patterns in visual intensity and audience reactions to determine what moments are considered important. This allows researchers to process thousands of frames and chat messages that would be impossible to analyze manually.
 
 In Javier’s article, computation is also used for analysis but in a different way. Instead of real-world data, it uses simulated scenarios to test how large language models behave across different social categories. The models are evaluated by comparing patterns in their decisions to detect bias. This shows how computation can be used not just to find patterns, but to evaluate systems and measure fairness.
 
 Together, both articles show that computation is being used to analyze complex datasets at scale, but the type of data (real vs simulated) changes what the analysis represents. While both approaches are effective, they also depend heavily on how the data is structured, which can influence the results and limit how well they reflect real cultural experiences.  
+
+Comments:
+
+You’re right that both papers use computation for analysis since they’re both finding patterns in data. But I don’t think they’re doing the same kind of analysis. In Fu et al., it’s really about analyzing real data like chat and video to figure out what moments matter. The *FAIRGAMER: Evaluating Biases in the Application of Large Language Models to Video Games* article, feels more like computation is being used to test the models by creating scenarios and checking for bias, not just analyzing existing data.
 
 ### Step 3: Find Trends, Divergences, and Silences
 
@@ -38,6 +42,10 @@ Another trend is that both articles rely on structured datasets that are either 
 
 Overall, these trends show that while computation is powerful, it often simplifies or reshapes the data in ways that can limit how accurately it represents real-world experiences.  
 
+- Divergences: Javier Martinez
+
+The two articles take very different approaches, and that really affects what their results mean. Fu et al. (2017) work with real Twitch data and actual game footage, using audience chat to predict highlights and treating those reactions as a signal of what matters in a match. On the other hand, Shi et al. (2025) create a controlled setup in which LLMs serve as game characters and are tested for bias using simulated scenarios with varying demographic traits. So one paper focuses on building a system that works in the real world, while the other focuses on testing and critiquing AI behavior. What’s at stake is the tradeoff between realism and control. Fu et al. capture real human reactions but risk carrying over hidden biases from those sources, while Shi et al. can clearly measure bias but in a setup that may not reflect real gameplay. In the end, it comes down to whether you trust messy real-world data or controlled experiments to better understand these systems.
+
 
 ### Contributions
 
@@ -46,3 +54,9 @@ Overall, these trends show that while computation is powerful, it often simplifi
   - Wrote Step 1 article overview
   - Wrote Step 2 (Analysis section)
   - Wrote Step 3 (Trends section)
+
+- Javier Martinez:   
+    - Completed full individual article analysis (AI summary, critical assessment, and AI critique)
+    - Wrote step 1 article overview
+    - Wrote step 2 (Comment section)
+    - Wrote step 3 (Divergences section)

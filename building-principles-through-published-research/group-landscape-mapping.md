@@ -40,7 +40,9 @@ Together, both articles show that computation is being used to analyze complex d
 
 Comments:
 
-You’re right that both papers use computation for analysis since they’re both finding patterns in data. But I don’t think they’re doing the same kind of analysis. In Fu et al., it’s really about analyzing real data like chat and video to figure out what moments matter. The *FAIRGAMER: Evaluating Biases in the Application of Large Language Models to Video Games* article, feels more like computation is being used to test the models by creating scenarios and checking for bias, not just analyzing existing data.
+You’re right that both papers use computation for analysis since they’re both finding patterns in data. But I don’t think they’re doing the same kind of analysis. In Fu et al., it’s really about analyzing real data like chat and video to figure out what moments matter. The *FAIRGAMER: Evaluating Biases in the Application of Large Language Models to Video Games* article, feels more like computation is being used to test the models by creating scenarios and checking for bias, not just analyzing existing data. - Javier Martinez
+
+The article *From Fads to Classics-Analyzing Video Game Trend Evolutions Through Steam Tags* sits somewhere between both of these examinations. The computation is doing analysis but it's also doing a lot of communication work through the visualizations which are designed for interpretion. So the model doesn't produce a prediction or evaluate a system, computation is used to translate raw proportions into something for non-academic audiences. That's a meaningful difference in what computation is being asked to do. - Charles Cantrell
 
 ### Step 3: Find Trends, Divergences, and Silences
 
@@ -63,6 +65,10 @@ I believe your observation regarding realism versus control is quite significant
 
 One major silence across both articles is how little they engage with the lived experiences and perspectives of actual players. Fu et al. uses chat and highlight compilations as stand-ins for excitement, but they overlook who’s chatting, whose reactions are most prominent, and how toxicity, spam, or inside jokes influence what’s considered a “highlight.” On the other hand, Shi et al. create synthetic scenarios to examine bias in LLM-driven NPCs, but these scenarios are crafted from the researchers’ perspective, rather than being co-created with players or marginalized groups who could be most impacted by in-game bias. 
 
+Comments: 
+
+The point about lived experience applies strongly to the *From Fads to Classics-Analyzing Video Game Trend Evolutions Through Steam Tags* article too. The authors treat Steam tags as neutral cultural signals, but they dont question who is doing the tagging. They dont examine whether certain communities are over-represent certain genres, or if the tag system itself reflects the demographics of Steam's whole user base. The silences around whose classification system this actually is feel significant, especially when the paper makes broader claims about what genres are becoming culturally significant. - Charles Cantrell
+
 ### Contributions
 
 - Jesus Vazquez:
@@ -82,3 +88,9 @@ One major silence across both articles is how little they engage with the lived 
     - Wrote step 1 article overview
     - Wrote step 3 (Comment section)
     - Wrote step 3 (Silences section)
+
+- Charles Cantrell:
+    - Completed full individual article analysis (AI summary, critical assessment, and AI critique)
+    - Wrote step 1 article overview
+    - Wrote step 2 (Comment section)
+    - Wrote step 3 (Comment section)

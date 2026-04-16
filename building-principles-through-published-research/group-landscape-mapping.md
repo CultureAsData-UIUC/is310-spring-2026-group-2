@@ -30,6 +30,13 @@ On the computational side the authors build custom trend metrics to produce thre
 
 *Explainable AI for Cheating Detection and Churn Prediction in Online Games* applies machine learning to large-scale multiview game log data (including player attributes, behavior sequences, images, and social networks) to detect cheating and predict player churn. By combining multiple specialized models across these data types with explainable AI techniques, it finds that behavioral patterns, social interactions, and gameplay engagement signals are key factors in identifying cheaters and predicting whether players will leave the game, while also providing interpretable insights into these predictions.
 
+**Raymond Lu - Article Overview**
+
+My article, Observing the Coming of Age of Video Game Graphics (Demleitner, 2024), uses a method called distant viewing to study how video game graphics changed historically from the 1960s to 1990. The data is a large collection of screenshots pulled from digital game archives, covering games across different hardware platforms and regions. One key issue is that the dataset depends on what has already been digitized and preserved online, so certain regions like North America and Japan are likely over-represented. Also, because the data is only static screenshots, it can't capture animation or actual gameplay, which are important parts of how video game visuals actually work.
+
+The computational method uses a vision model called DINOv2 to generate image embeddings for each screenshot, then UMAP and k-means clustering to group visually similar images together. The goal is to find broad historical patterns across thousands of images at once, which would be impossible to do manually. The main limitation is that DINOv2 was trained on general images, not game-specific ones, so it fails to recognize ludemes — visual elements tied to gameplay rules. This means the clusters reflect general visual similarity rather than what actually matters culturally in video games.
+
+
 ### Step 2: Map How Computation Is Being Used
 
 - Analysis:
@@ -73,6 +80,9 @@ Comments:
 
 The point about lived experience applies strongly to the *From Fads to Classics-Analyzing Video Game Trend Evolutions Through Steam Tags* article too. The authors treat Steam tags as neutral cultural signals, but they dont question who is doing the tagging. They dont examine whether certain communities are over-represent certain genres, or if the tag system itself reflects the demographics of Steam's whole user base. The silences around whose classification system this actually is feel significant, especially when the paper makes broader claims about what genres are becoming culturally significant. - Charles Cantrell
 
+The silence around whose data gets preserved is also really visible in Demleitner's article. The dataset is built from what's already available in digital archives, which means games from certain regions or platforms that weren't well-documented simply don't appear. The author mentions wanting to include under-researched regional game cultures, but the archival gaps make that difficult in practice. So the historical patterns the computation finds are shaped as much by what survived digitization as by what actually existed. - Raymond Lu
+
+
 ### Contributions
 
 - Jesus Vazquez:
@@ -102,3 +112,8 @@ The point about lived experience applies strongly to the *From Fads to Classics-
 - Hongli Peng:
     - Completed full individual article analysis (AI summary, critical assessment, and AI critique)
     - Wrote step 1 article overview
+
+- Raymond Lu:
+    - Completed full individual article analysis (AI summary, critical assessment, and AI critique)
+    - Wrote step 1 article overview
+    - Wrote step 3 (Comment section)

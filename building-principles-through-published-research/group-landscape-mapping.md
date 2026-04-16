@@ -27,6 +27,7 @@ Nohar’s thesis uses machine learning on a merged Steam dataset (store metadata
 On the computational side the authors build custom trend metrics to produce three interpretable scores tracking how tags rise and fall over time. The thresholds in this process are not neutral choices since they define what counts as a meaningful shift meaning the model is partially constructing what gets recognized as a trend. The paper still relies on industry experts to explain why trends behave the way they do even after computation. The AI summary I generated got the general pipeline right but missed the supply versus demand issue aswell as the retroactive tagging issue. Both are important to the evaluation of the study's claim.
 
 **Hongli Peng - Article Overview**
+
 *Explainable AI for Cheating Detection and Churn Prediction in Online Games* applies machine learning to large-scale multiview game log data (including player attributes, behavior sequences, images, and social networks) to detect cheating and predict player churn. By combining multiple specialized models across these data types with explainable AI techniques, it finds that behavioral patterns, social interactions, and gameplay engagement signals are key factors in identifying cheaters and predicting whether players will leave the game, while also providing interpretable insights into these predictions.
 
 ### Step 2: Map How Computation Is Being Used

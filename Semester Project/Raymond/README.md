@@ -1,25 +1,37 @@
-# Initial Dataset Submission
+# Mainstream Video Games Dataset (1978–2025)
 
-This folder contains my initial dataset submission for the is310 semester project.
+This folder contains my semester project submission for IS310. The project tracks mainstream video games from 1978 to 2025, examining how "mainstream" has been defined differently across eras — through sales, critical recognition, awards, and cultural impact.
 
-For this assignment, I created a small dataset that focuses on mainstream video games from the late 20th century to the present. The goal of this dataset is to explore major games that have had a strong cultural or commercial impact over time, including their genre, release year, and platform.
+## Folder Structure
 
-## Files Included
+```
+Raymond/
+├── Initial Dataset Submission/
+│   ├── mainstream_video_games_dataset.csv   # original 84-entry bespoke dataset
+│   ├── dataset_documentation.md            # methodology and interpretive decisions
+│   └── next_steps_plan.md                  # scaling plan written before Spring Break
+│
+├── mainstream_video_games_dataset_expanded.csv   # final dataset (683 entries)
+├── data_essay.md                                 # final data essay
+└── README.md
+```
 
-The main files for this submission are located in this folder:
+## Files
 
-- `mainstream_video_games_dataset.csv`  
-  This is the dataset itself. It contains structured information about a selection of mainstream video games, including title, release year, genre, and platform.
+### Final Submission
 
-- `dataset_documentation.md`  
-  This document explains the methodology behind the dataset, including how the games were selected, how categories were defined, and what interpretive decisions were made during the data creation process.
+- `mainstream_video_games_dataset_expanded.csv`  
+  The complete dataset with 683 entries. The first 84 rows are manually curated; the remaining 599 were collected computationally from the Steam Games Dataset (Kaggle), filtered by estimated ownership of 2 million or more.
 
-- `next_steps_plan.md`  
-  This file outlines how the dataset could be expanded in the future using computational methods, such as web scraping or public game databases, to scale the dataset to several hundred or thousand entries.
+- `data_essay.md`  
+  A reflective essay covering how the dataset was made, how computation shaped the process, what changed at scale, limitations, ethical considerations, and how this work relates to broader digital humanities scholarship.
 
-## Purpose
+### Initial Dataset Submission (March)
 
-The purpose of this dataset is to examine how video games as a cultural medium evolve over time and how certain genres or types of games become more prominent. By starting with a small, manually curated dataset, this project reflects on the interpretive decisions involved in creating cultural data.
+- `Initial Dataset Submission/mainstream_video_games_dataset.csv` — original 84-entry dataset
+- `Initial Dataset Submission/dataset_documentation.md` — full methodology documentation
+- `Initial Dataset Submission/next_steps_plan.md` — scaling roadmap written before the computational phase
 
-In the next stage of the project, the dataset may be expanded using computational methods to explore larger trends in the video game industry.
+## Project Summary
 
+The dataset defines "mainstream" using four signals: best-seller status, critical canon inclusion, Game of the Year recognition, and cultural/social impact. The final 683-entry version combines close manual curation with computational scaling via a Kaggle Steam dataset, and reflects on what gets gained and lost when cultural data moves from hand-curated to algorithmically generated.

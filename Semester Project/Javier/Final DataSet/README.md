@@ -140,6 +140,20 @@ I compared tags related to play style:
 
 This helped me think about how horror can be presented as both an individual experience and a shared social experience. Many horror games are single-player, but multiplayer and co-op horror also appear in the dataset.
 
+### 4. Broader Horror Categories
+
+I also grouped related Steam tags into broader categories to get a clearer picture of how horror games are represented. These categories were based on my interpretation of the tags, so they are not perfect or official Steam categories. However, they help summarize the main patterns in the dataset.
+
+The broader categories included:
+
+- Mood / Atmosphere: Atmospheric, Dark, Mystery
+- Psychological / Story: Psychological Horror, Story Rich
+- Survival: Survival Horror, Survival
+- Action / Combat: Action, Shooter, FPS, Gore, Violent
+- Social / Multiplayer: Multiplayer, Co-op, Online Co-Op
+
+This helped me see that horror games on Steam are not represented in only one way. Many games connect to mood and atmosphere, while others connect more to action, survival, story, or multiplayer gameplay.
+
 ## What the Dataset Represents
 
 This dataset represents horror games as they appear on Steam store pages. It shows how horror games are categorized and marketed through platform tags and short descriptions.
@@ -190,5 +204,7 @@ The privacy risk is low because the dataset is based on public game pages. Howev
 ## Conclusion
 
 The main takeaway from this project is that horror games on Steam are not represented as one simple category. Horror overlaps with atmosphere, story, survival, action, psychological tension, multiplayer gameplay, and co-op experiences.
+
+The broader tag categories also showed that horror games often combine mood, survival, action, story, and social gameplay instead of fitting into only one category.
 
 Steam tags make horror games searchable and organized, but they also simplify the experience. The dataset is useful for seeing patterns in how horror games are represented, but it cannot fully capture what it feels like to actually play a horror game.

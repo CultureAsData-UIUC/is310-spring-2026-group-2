@@ -7,6 +7,7 @@ For my final project, I created a dataset about horror games on Steam. I chose t
 My main research question is: How are horror games represented on Steam through tags and descriptions? I wanted to understand what Steam store pages could show about horror as a genre. At first, horror seems like a simple label, but once I started building the dataset, I realized it is much more complicated. Some horror games focus on survival, some focus on psychological fear, some are action-heavy, some are atmospheric, and others are multiplayer or co-op experiences.
 
 My argument is that horror on Steam is not one fixed category. It is a flexible genre that overlaps with many other types of games. Steam tags and descriptions help make horror games searchable and organized, but they also simplify what horror actually means as a player experience. The dataset reveals how horror is represented on Steam, but it cannot fully capture what horror feels like during gameplay.
+
 ## Dataset Overview
 
 For this project, I made a dataset of horror games collected from Steam store pages. Each row in the dataset represents one Steam game page. The final scaled dataset includes four main columns: title, steam_url, tags, and description.

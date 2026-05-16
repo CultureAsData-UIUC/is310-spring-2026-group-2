@@ -23,3 +23,9 @@ A genre label like “Horror” does not explain the whole game. Many horror gam
 
 **Principle 2: Separate platform representation from player experience.**  
 Steam tags and descriptions show how games are represented on the platform, but they do not fully show what it feels like to play them. A game can be tagged as scary or psychological, but the dataset cannot fully capture fear, atmosphere, sound, pacing, or player reaction.
+
+## Anshuman Satpute
+
+In my project, I treated Steam’s metadata especially its genre labels, as a kind of historical record of how the platform has chosen to organize games over time. Instead of seeing genres as a timeless list of categories, I started to see them as snapshots of how Steam and developers described games in specific years. Looking at multiple years at once made it clear that some genres become more visible, some fade into the background, and new ones appear, reflecting changes in design trends, marketing language, and platform priorities.
+
+Working with platform metadata in this way showed me that Steam is not just a store; it is also an evolving catalog that leaves behind traces of how gaming culture gets sorted, named, and discovered. For example, the rise of labels like “Indie” or “Survival” is not only about individual games; it also tells a story about what kinds of games the platform supports and how it bundles them together for players. The dataset captures these shifts indirectly through changes in the frequency and combination of genre labels across years.

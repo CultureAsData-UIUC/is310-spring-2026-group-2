@@ -38,8 +38,6 @@ When you query a database for games in a specific genre, you are not retrieving 
 
 Before you build a dataset around a genre label, ask: Who defined this label? When? Has its meaning shifted? Are there competing labels that overlap with it? You may need more than one keyword or tag to capture the full category you are interested in.
 
----
-
 ## Principle 2: Cleaning Is Interpretation
 
 When you clean a dataset — filling in missing values, standardizing formats, deciding which records to keep and which to drop — you are making interpretive decisions, not just technical ones. Those decisions shape what your dataset can show.

@@ -29,3 +29,19 @@ Steam tags and descriptions show how games are represented on the platform, but 
 In my project, I treated Steam’s metadata especially its genre labels, as a kind of historical record of how the platform has chosen to organize games over time. Instead of seeing genres as a timeless list of categories, I started to see them as snapshots of how Steam and developers described games in specific years. Looking at multiple years at once made it clear that some genres become more visible, some fade into the background, and new ones appear, reflecting changes in design trends, marketing language, and platform priorities.
 
 Working with platform metadata in this way showed me that Steam is not just a store; it is also an evolving catalog that leaves behind traces of how gaming culture gets sorted, named, and discovered. For example, the rise of labels like “Indie” or “Survival” is not only about individual games; it also tells a story about what kinds of games the platform supports and how it bundles them together for players. The dataset captures these shifts indirectly through changes in the frequency and combination of genre labels across years.
+
+## Hongli Peng
+
+## Principle 1: Genre is a Label, Not a Fact
+
+When you query a database for games in a specific genre, you are not retrieving a neutral list. You are retrieving a list of games that someone — an editor, a contributor, a developer, an algorithm — decided to attach a particular label to. That decision was made at a specific moment, under specific conditions, and it may have been made differently by someone else.
+
+Before you build a dataset around a genre label, ask: Who defined this label? When? Has its meaning shifted? Are there competing labels that overlap with it? You may need more than one keyword or tag to capture the full category you are interested in.
+
+---
+
+## Principle 2: Cleaning Is Interpretation
+
+When you clean a dataset — filling in missing values, standardizing formats, deciding which records to keep and which to drop — you are making interpretive decisions, not just technical ones. Those decisions shape what your dataset can show.
+
+Document your cleaning decisions as carefully as you document your collection process. A dataset that looks clean may have had significant interpretive work done to it that is invisible unless you record it explicitly.

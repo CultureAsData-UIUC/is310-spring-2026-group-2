@@ -1,0 +1,13 @@
+# Instructor Feedback for Initial Dataset
+
+Hi Hongli, 
+
+Your topic is interesting and I think it is a good choice to focus on one video game genre for this project. Since roguelike and roguelite games are so popular, it should be fairly easy to scale this project up as well. 
+
+I have a few suggestions to consider as you move into the final stage of this project:
+1. You say that you are interested in how the games have changed over time, which is fine, but the data you have collected so far does not tell us very much about the culture of these games or roguelike games in general. How do the categories you have collected tell us that "player expectations and accessibility" have influenced the genre. You might also consider collecting keyword tags (which I believe is actually where the 'roguelike' or 'roguelite' categories comes from), number of user ratings, or number of IGDB users who have added the game to the 'want', 'playing', or 'played' categories. These are just suggestions, but there is a lot of information on IGDB pages that could potentially tell us something about how the genre has changed. I would encourage you to focus more on the cultural aspects of this genre rather than any technical changes in the game industry. Which platforms the games are played on or a shift in player perspective is more an indicator of technological improvements over time than an indicator of a cultural shift specifically. You should think about what data on the IGDB website is most useful for getting at the cultural questions behind this genre. 
+2. Some of the challenges you noted are actually some of the most interesting data findings in your initial dataset. An important thing to keep in mind about the IGDB website is that it consists of user created and tagged information. The website owners do quality control, but any user is able to add their own data about a game. The subjectivity in genre, inconsistent theme tagging, and lack of older games is telling you something about the community and how they interact with the genre. For this reason, the IGDB database is better treated as a reflection of the community rather than an objective statement of fact on rogue like games. 
+
+Overall I think this project is on the right track but could benefit from a more direct engagement with what IGDB is as a platform and what kinds of cultural data can be collected. 
+
+If you have any questions feel free to reach out to me. 
